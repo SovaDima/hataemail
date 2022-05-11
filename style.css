@@ -2,21 +2,29 @@ table {
     border-collapse: collapse;
 
 }
- .goods td{
-     padding-left: 30px;
-     padding-right: 30px;
- }
-hr{
+
+a {
+    text-decoration: none;
+}
+
+.goods td {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+hr {
     color: #e4e4ec;
 }
-.goods p{
-padding: 0;
-font-size: 13px;
-line-height: 19px;
-color: #9999a6;
-font-family: "Arial";
+
+.goods p {
+    padding: 0;
+    font-size: 13px;
+    line-height: 19px;
+    color: #9999a6;
+    font-family: "Arial";
 }
- h2 {
+
+h2 {
 
     font-size: 16px;
     line-height: 24px;
@@ -117,30 +125,61 @@ table p {
 }
 
 .discount {
-    background-image:url(/img/bgc\ disc.jpg);
+    background-image: url(/img/bgc\ disc.jpg);
     text-align: center;
 }
-.discount h3{
+
+.discount h3 {
     font-size: 24px;
-line-height: 24px;
-color: #ffffff;
-font-weight: bold;
-font-family: "Arial";
-text-align: center; 
+    line-height: 24px;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: "Arial";
+    text-align: center;
 }
-.discount p{
+
+.discount p {
     font-size: 13px;
-line-height: 20px;
-color: #ffffff;
-font-family: "Arial";
-text-align: center;
+    line-height: 20px;
+    color: #ffffff;
+    font-family: "Arial";
+    text-align: center;
 }
-.discount button{
+
+.discount button {
     border-radius: 20px;
-background-color: #1f1f56;
+    background-color: #1f1f56;
 }
-.footer {
-    background-color: red;
+
+.stage1 {
+    background-color: #08081a;   
+    text-align: center;
+}
+.stage1 td{
+    padding-top: 20px;
+}
+.stage2 {
+    background-color: #000014;
+}
+
+.footer td {
+
+    text-align: center;
+
+}
+
+.stage2 a {
+    color: orange;
+    text-decoration: underline;
+
+}
+
+.footer p {
+    font-size: 13px;
+    line-height: 18px;
+    color: #9999a6;
+    font-family: "Arial";
+    text-align: center;
 }
 
 .margin td {

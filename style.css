@@ -1,0 +1,151 @@
+table {
+    border-collapse: collapse;
+
+}
+ .goods td{
+     padding-left: 30px;
+     padding-right: 30px;
+ }
+hr{
+    color: #e4e4ec;
+}
+.goods p{
+padding: 0;
+font-size: 13px;
+line-height: 19px;
+color: #9999a6;
+font-family: "Arial";
+}
+ h2 {
+
+    font-size: 16px;
+    line-height: 24px;
+    color: #1f1f56;
+    font-weight: bold;
+    font-family: "Arial";
+}
+
+.gray {
+
+
+    background-color: #dcdce5;
+}
+
+.logo {
+    align-items: left;
+}
+
+.left {
+    text-align: right;
+    margin: 0;
+    padding-top: 10px;
+    padding-right: 30px;
+}
+
+.right {
+    padding-left: 30px;
+
+}
+
+.goods table {
+    border-bottom: red;
+}
+
+table h1 {
+    padding-left: 30px;
+    font-size: 24px;
+    color: #24242b;
+    font-weight: bold;
+    font-family: "Arial";
+}
+
+table p {
+    padding-left: 30px;
+    font-size: 14px;
+    color: #666666;
+    font-family: "Arial";
+}
+
+.button {
+    border-radius: 4px;
+    border: none;
+    margin-left: 30px;
+    margin-top: 20px;
+    margin-bottom: 35px;
+    width: 180px;
+    height: 40px;
+    cursor: pointer;
+    border-color: orange;
+    background-color: #fd8300;
+}
+
+.forbut {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    line-height: 24px;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: "Arial";
+    align-items: baseline;
+
+}
+
+.adventages {
+    background-color: #ededf5;
+    text-align: center;
+}
+
+.adventages h4 {
+    margin: 0;
+    font-size: 13px;
+    line-height: 18px;
+    color: #666666;
+    font-family: "Arial";
+    text-align: center;
+}
+
+.adventages p {
+    padding: 0;
+    margin: 0;
+    font-size: 13px;
+    line-height: 18px;
+    color: #666666;
+    font-family: "Arial";
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.discount {
+    background-image:url(/img/bgc\ disc.jpg);
+    text-align: center;
+}
+.discount h3{
+    font-size: 24px;
+line-height: 24px;
+color: #ffffff;
+font-weight: bold;
+font-family: "Arial";
+text-align: center; 
+}
+.discount p{
+    font-size: 13px;
+line-height: 20px;
+color: #ffffff;
+font-family: "Arial";
+text-align: center;
+}
+.discount button{
+    border-radius: 20px;
+background-color: #1f1f56;
+}
+.footer {
+    background-color: red;
+}
+
+.margin td {
+    padding-top: 25px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 25px;
+}

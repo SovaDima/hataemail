@@ -153,7 +153,7 @@ table p {
     top: 0;
     left: -15%;
     height: 13px;
-    background-image: url(/img/phone.jpg);
+    background-image: url(https://raw.githubusercontent.com/SovaDima/hataemail/main/img/phone.jpg);
 }
 
 .discount h3 {

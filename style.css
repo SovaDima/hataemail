@@ -66,9 +66,22 @@ table h1 {
     font-weight: bold;
     font-family: "Arial";
 }
+.headtext p{
+    padding-left: 30px;
+}
+i{
+    font-style: normal;
+}
+.left a{
+    font-size: 16px;
+line-height: 24px;
+color: #25252c;
+font-weight: bold;
+font-family: "Arial";
+}
 
 table p {
-    padding-left: 30px;
+    
     font-size: 14px;
     color: #666666;
     font-family: "Arial";
@@ -130,6 +143,18 @@ table p {
     background-image: url(https://raw.githubusercontent.com/SovaDima/hataemail/main/img/bgc%20disc.jpg);
     text-align: center;
 }
+.left a{
+    position: relative;
+}
+.left a::before{
+    position: absolute;
+    content: "";
+    width:13px ;
+    top: 0;
+    left: -15%;
+    height: 13px;
+    background-image: url(/img/phone.jpg);
+}
 
 .discount h3 {
     font-size: 24px;
@@ -172,7 +197,7 @@ table p {
 
 .stage2 a {
     color: orange;
-    text-decoration: underline;
+    text-decoration: none;
 
 }
 

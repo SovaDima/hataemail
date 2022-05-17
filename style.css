@@ -8,12 +8,18 @@ a {
 }
 
 .goods td {
-    padding-left: 30px;
     padding-right: 30px;
 }
 
 hr {
-    color: #e4e4ec;
+    color: #dadae2;
+}
+
+.text {
+    font-size: 14px;
+    line-height: 24px;
+    color: #666666;
+    font-family: "Arial";
 }
 
 .goods p {
@@ -25,12 +31,17 @@ hr {
 }
 
 h2 {
-
+    margin: 0;
     font-size: 16px;
     line-height: 24px;
     color: #1f1f56;
     font-weight: bold;
     font-family: "Arial";
+}
+
+.darkgray {
+    background-color: #dcdce5;
+
 }
 
 .gray {
@@ -59,6 +70,10 @@ h2 {
     border-bottom: red;
 }
 
+.goods {
+    padding: 0;
+}
+
 table h1 {
     padding-left: 30px;
     font-size: 24px;
@@ -66,33 +81,56 @@ table h1 {
     font-weight: bold;
     font-family: "Arial";
 }
-.headtext p{
+
+.headtext p {
     padding-left: 30px;
+
 }
-i{
-    font-style: normal;
+
+.margin {
+    padding-left: 35px;
 }
-.left a{
+
+.houses {
+    padding-left: 35px;
+}
+
+b {
+    font-style: italic;
+    font-size: 13px;
+    font-weight: 200;
+    color: #9999a6;
+    font-style: italic;
+    font-family: "Arial";
+
+}
+
+.left a {
     font-size: 16px;
-line-height: 24px;
-color: #25252c;
-font-weight: bold;
-font-family: "Arial";
+    line-height: 24px;
+    color: #25252c;
+    font-weight: bold;
+    font-family: "Arial";
 }
 
 table p {
-    
+
     font-size: 14px;
     color: #666666;
     font-family: "Arial";
 }
-.header button{
+
+.header button {
     padding: 0;
 }
+
+.footer td {
+    padding-top: 15px;
+}
+
 .button {
-    border-radius: 4px;
+    border-radius: 20px;
     border: none;
-    margin-left: 30px;
     margin-top: 20px;
     margin-bottom: 35px;
     width: 180px;
@@ -110,20 +148,32 @@ table p {
     color: #ffffff;
     font-weight: bold;
     font-family: "Arial";
+    font-style: normal;
     align-items: baseline;
 
 }
 
+
 .adventages {
     background-color: #ededf5;
     text-align: center;
+
+}
+
+.adventages tr {
+    margin-left: 35px;
+}
+.adventages td{
+    padding-left: 36px;
+    padding-right: 35px;
 }
 
 .adventages h4 {
     margin: 0;
-    font-size: 13px;
+    font-size: 14px;
     line-height: 18px;
-    color: #666666;
+    color: #24242b;
+    font-weight: bold;
     font-family: "Arial";
     text-align: center;
 }
@@ -143,20 +193,9 @@ table p {
     background-image: url(https://raw.githubusercontent.com/SovaDima/hataemail/main/img/bgc%20disc.jpg);
     text-align: center;
 }
-.left a{
-    position: relative;
-}
-.left a::before{
-    position: absolute;
-    content: "";
-    width:13px ;
-    top: 0;
-    left: -15%;
-    height: 13px;
-    background-image: url(https://raw.githubusercontent.com/SovaDima/hataemail/main/img/phone.jpg);
-}
 
 .discount h3 {
+    margin-bottom: 15px;
     font-size: 24px;
     line-height: 24px;
     color: #ffffff;
@@ -176,15 +215,22 @@ table p {
 .discount button {
     border-radius: 20px;
     background-color: #1f1f56;
+    margin: 0;
+    margin-bottom: 20px;
+}
+.second td{
+    padding-top: 15px;
 }
 
 .stage1 {
-    background-color: #08081a;   
+    background-color: #08081a;
     text-align: center;
 }
-.stage1 td{
+
+.stage1 td {
     padding-top: 20px;
 }
+
 .stage2 {
     background-color: #000014;
 }
@@ -209,9 +255,7 @@ table p {
     text-align: center;
 }
 
-.margin td {
-    padding-top: 25px;
-    padding-left: 30px;
-    padding-right: 30px;
+.goods td {
+
     padding-bottom: 25px;
 }

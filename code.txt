@@ -10,7 +10,7 @@
 </head>
 
 <body>
-       <table border="0" cellpading="0" collspacing="0" align="center" width="100%">
+    <table border="0" cellpading="0" collspacing="0" align="center" width="100%">
         <tr>
             <td class="darkgray"></td>
             <td>
@@ -30,15 +30,15 @@
         </tr>
         <table class="header" border="0" cellpading="0" collspacing="0" align="center" width="600">
             <tr>
+            
 
                 <td class="header">
                 <td class="right">
                     <img src="https://raw.githubusercontent.com/SovaDima/hataemail/main/img/logo.png" alt="">
                 </td>
                 <td class="left">
-                    <a href="#"><img src="https://raw.githubusercontent.com/SovaDima/hataemail/main/img/phone.jpg" alt=""></a>
-                    <a href="tel:380971002525">+38(097) 100-25-25</a><br>
-                    <b class="head-text">контактний телефон у Вашому місті</b>
+                    <a href="tel:380971002525">+38(097) 100-25-25</a>
+                    <p class="head-text">контактний телефон у Вашому місті</p>
                 </td>
 
                 <table class="second" border="0" cellpading="0" collspacing="0" align="center" width="600">
@@ -50,11 +50,21 @@
                     <tr>
                         <td class="headtext">
                             <h1>Компанія “Хата Плюс”</h1>
-                            <p class="text">Напевно кожен з нас не раз думав про те, щоб купити будинок котедж
-                                і насолоджуватися життям в гармонії з природою. Дійсно, для багатьох жителів мегаполісу
-                                заміська нерухомість під містом стала справжньою віддушиною
-                                і порятунком від сумній життя в багатоповерхівках спальних районів. </p>
-                            <a href="#" style="padding-left: 30px;">
+                            <p>
+                                Напевно кожен з нас не раз думав про те, щоб купити будинок котедж</p>
+                            <p>
+
+                                і насолоджуватися життям в гармонії з природою. Дійсно, для багатьох жителів
+                            </p>
+
+                            </p>
+                            <p>
+                                мегаполісу заміська нерухомість під містом стала справжньою віддушиною
+                            </p>
+                            <p>
+                                і порятунком від сумній життя в багатоповерхівках спальних районів.
+                            </p>
+                            <a href="#">
                                 <button class="button">
                                     <i class="forbut">
                                         Детальніше про нас
@@ -64,6 +74,7 @@
                             </a>
                         </td>
                     </tr>
+                </table>
                     <table class="adventages" border="0" cellpading="0" collspacing="0" align="center" width="600">
                         <tr>
                             <td>
@@ -92,7 +103,7 @@
                             </td>
                         </tr>
                         <tr>
-                            <td class="padl">
+                            <td>
                                 <p>
                                     Наші котеджі знаходяться
                                     по всій країні
@@ -100,11 +111,11 @@
                             </td>
                             <td>
                                 <p>
-                                    Понад 50 видів котеджів 
+                                    Понад 50 видів котеджів<br>
                                     з усіма зручностями
                                 </p>
                             </td>
-                            <td class="padr">
+                            <td>
                                 <p>
                                     Скалиста місцевіть, свіже повітря, та риболовля
                                 </p>
@@ -113,7 +124,7 @@
 
                     </table>
                 </table>
-                <table style="margin-top: 15px;" class="goods" border="0" cellpading="0" collspacing="0" align="center" width="600">
+                <table class="goods" border="0" cellpading="0" collspacing="0" align="center" width="600">
                     <tr class="margin">
                         <td class="houses">
                             <a href="#">
@@ -150,7 +161,7 @@
                                 Гараж: 2 авто<br>
                             </p>
                         </td>
-                        <td class="housesr">
+                        <td class="houses">
                             <a href="#">
                                 <img src="https://raw.githubusercontent.com/SovaDima/hataemail/main/img/dom2.jpg" alt="">
                             </a>
@@ -169,8 +180,8 @@
                                 <img src="https://raw.githubusercontent.com/SovaDima/hataemail/main/img/calgary.jpg" alt="">
                             </a>
                         </td>
-                        <td class="margin" style="padding: 0;">
-                            <h2 style="margin:0 ;">CALGARY (294 м<sup>2</sup>)</h2>
+                        <td class="margin">
+                            <h2>CALGARY (294 м<sup>2</sup>)</h2>
                             <p>
                                 Для діток тут побудована ігровий
                                 та спортивний майданчик, а недалеко
@@ -185,8 +196,7 @@
 
                     </tr>
                 </table>
-        </table>
-        <table class="discount" border="0" cellpading="0" collspacing="0" align="center" width="600">
+       <table class="discount" border="0" cellpading="0" collspacing="0" align="center" width="600">
 
             <tr>
                 <td>
@@ -222,7 +232,7 @@
                         <img src="https://raw.githubusercontent.com/SovaDima/hataemail/main/img/twitter%20(1).jpg" alt="">
                     </a>
                     <a href="#">
-                        <img src="https://raw.githubusercontent.com/Mr-No-bo-dy/_E-mail_Pics/master/Hata-Newsletter/s-fb.png"  alt="">
+                        <img src="https://raw.githubusercontent.com/SovaDima/hataemail/main/img/facebook.jpg"  alt="">
                     </a>
                     <a href="#">
                         <img src="https://raw.githubusercontent.com/SovaDima/hataemail/main/img/wifi.jpg" alt="">
@@ -257,7 +267,9 @@
         </table>
     </table>
     </td>
+    <td class="gray">
 
+    </td>
     </tr>
     </table>
 </body>

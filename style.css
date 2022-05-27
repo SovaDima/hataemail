@@ -39,16 +39,14 @@ h2 {
     font-family: "Arial";
 }
 
-.darkgray {
+/* .darkgray {
     background-color: #dcdce5;
-
+} */
+.gray{
+    background-color: #dcdce5;
+    width: 50%;
 }
 
-.gray {
-
-
-    background-color: #dcdce5;
-}
 
 .logo {
     align-items: left;

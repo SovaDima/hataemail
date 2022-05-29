@@ -6,7 +6,9 @@ table {
 a {
     text-decoration: none;
 }
-
+.white{
+    background-color: #f5f5f5;
+}
 .goods td {
     padding-right: 30px;
 }
@@ -29,7 +31,10 @@ hr {
     color: #9999a6;
     font-family: "Arial";
 }
-
+table td:nth-child(2){
+    padding: 0;
+    max-width: 601px;
+}
 h2 {
     margin: 0;
     font-size: 16px;
@@ -63,7 +68,10 @@ h2 {
     padding-left: 30px;
 
 }
-
+ .headtext{
+     padding-left: 30px;
+     padding-right: 30px;
+ }
 .goods table {
     border-bottom: red;
 }
@@ -73,17 +81,13 @@ h2 {
 }
 
 table h1 {
-    padding-left: 30px;
+
     font-size: 24px;
     color: #24242b;
     font-weight: bold;
     font-family: "Arial";
 }
-
-.headtext p {
-    padding-left: 30px;
-
-}
+ 
 
 .margin {
     padding-left: 35px;
@@ -216,9 +220,7 @@ table p {
     margin: 0;
     margin-bottom: 20px;
 }
-.second td{
-    padding-top: 15px;
-}
+
 
 .stage1 {
     background-color: #08081a;
